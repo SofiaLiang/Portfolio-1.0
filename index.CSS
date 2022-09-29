@@ -9,5 +9,59 @@ body{
      font-size: 16px;
      line-height: 1.5;
      color:#333;
-     background-color:#ffcccc;
+     background-color:rgb(245, 225, 218);
 }   
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 15px;
+}
+
+#navbar {
+    display: flex;
+    background:rgb(214, 152, 152) ;
+    color:#800000 ;
+    height: 70px;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rosybrown;
+    z-index: 10;
+    align-items: center;
+}
+
+#navbar a:hover {
+    color:#ffcccc;
+}
+
+ul {
+    display:flex ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-right: 20px;
+    list-style: none;
+}
+#navbar a {
+    color:#800000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar ul li {
+    margin-left:20px ;
+
+}
+
+
+
+ 
