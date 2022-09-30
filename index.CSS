@@ -99,11 +99,17 @@ h2 {
 .row {
     display: flex;
     flex-direction: center;
-    /*align-items: column;*/
-    width: 100%;
-    margin:25% auto;
-    max-width: 62.5em;
-   /* border:3px solid black; */
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+    /* margin:25% auto; */
+    /* margin-left:auto; */
+    /* margin-right: auto; */
+    /* margin-top: 15%; */
+    /* margin-bottom: 45%; */
+    /* max-width: 62.5em; */
+    border:3px solid yellow;
 }
 
 
@@ -112,11 +118,13 @@ h2 {
     /*height:34%;*/
     display: flex;
     flex-direction: column;
-    padding-left: 1.0em;
-    padding-right:1.0em;
-    /* border:3px solid black; */
-    margin-left: 35px;
-    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 1.0em;
+    padding-right:1.0em; */
+    border:3px solid blue;
+    /* margin-left: 35px; */
+    /* margin-top: 0; */
 }
 .head-photo {
      max-width: 300px;
@@ -135,14 +143,14 @@ h2 {
     display: flex;
     flex-direction: column;
    /*max-width: 70rem;*/
-    /* border:3px solid black; */
-    margin-left: 30px;
+    border:3px solid red; 
+    margin-left: 35px;
     margin-right: 0;
     margin-top: 25px;
 }
 
 .git, .link {
-    padding-left:45px;
+    padding-left:20px;
 }
 
 #face, #git, #link {
@@ -153,10 +161,11 @@ h2 {
 .large-8 {
     display: flex;
     flex-direction: column;
-    float: right;
-    margin-left: 5px;
-    /*border:3px solid black;*/
-    margin-top: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    /* margin-left: 5px; */
+    border:3px solid black;
+    /* margin-bottom: 0px; */
 }
 
 h1 {
@@ -174,8 +183,24 @@ h1 {
 }
 
 #projects{
+    /* display: grid; */
+    text-align: center;
+    padding: 10rem 2rem;
+    margin: 0%;
+    height: 100vh;
+}
+
+h3 {
+    max-width: 640px;
+    margin: 2%auto;
+    border-bottom: 2px solid gray;
+    /* border: black solid 5px; */
+    font-size: xx-large;
+    color: #800000;
+}
+
+.project-grid {
     display: grid;
     
 }
-
  
